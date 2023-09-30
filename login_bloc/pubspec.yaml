@@ -1,4 +1,4 @@
-name: counter_bloc
+name: login_bloc
 description: A new Flutter project.
 publish_to: 'none'
 version: 0.1.0
@@ -9,8 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bloc: ^8.1.1
-  flutter_bloc: ^8.0.0
+  authentication_repository:
+    path: packages/authentication_repository
+  bloc: ^8.1.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.1.1
+  formz: ^0.6.0
+  user_repository:
+    path: packages/user_repository
+
+
 
 dev_dependencies:
   flutter_test:
